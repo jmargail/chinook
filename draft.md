@@ -22,19 +22,21 @@ Infos/Réflexions sur la mise en place de Chinook 2
 - OL3
 - Zend 2 / apigility
 
-Client	Sencha Ext 6
-	OpenLayers 3
-	Proj4js
-	jsts / turfjs
-	GuiBuilder
-	CodeMirror ?
+*Client	
+Sencha Ext 6
+OpenLayers 3
+Proj4js
+jsts / turfjs
+GuiBuilder
+CodeMirror ?
 	
-Serveur	Zend 2
-	PHPXord
-	PHPExcel
-	SQLParser
-	CSSParser
-	html2pdf
+*Serveur
+Zend 2
+PHPWord
+PHPExcel
+SQLParser
+CSSParser
+html2pdf
 	
 
 ### Code
