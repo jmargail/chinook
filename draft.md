@@ -22,6 +22,20 @@ Infos/Réflexions sur la mise en place de Chinook 2
 - OL3
 - Zend 2 / apigility
 
+Client	Sencha Ext 6
+	OpenLayers 3
+	Proj4js
+	jsts / turfjs
+	GuiBuilder
+	CodeMirror ?
+	
+Serveur	Zend 2
+	PHPXord
+	PHPExcel
+	SQLParser
+	CSSParser
+	html2pdf
+	
 
 ### Code
 - commentaires anglais
@@ -47,3 +61,20 @@ Infos/Réflexions sur la mise en place de Chinook 2
     	- layers
         
 > génère 1 mapfile par contexte. mapserver gère seul les flux OGC (WMS, WFS...)
+
+
+
+### Les grandes lignes de la version 2
+- Migration vers Github
+- Full UTF8
+- Version mobile avancée, responsive design
+- Mode déconnecté
+- Système de plugin plus performant
+- Catalogue en ligne / synchro / diffusion …
+- Catalogues en ligne de styles, pictos, cartes… (échanges / diffusion)
+- Système de notification, cache
+- Privilégier l’affichage type vecteur (WebGL)
+- Utilisation des Websocket / cache SQLite / LocalStorage…
+- Système gestion des droits (json + js via xtype + ID)
+- Admin avec générateur d’application
+- Et toujours : modularité, performances, sécurité
